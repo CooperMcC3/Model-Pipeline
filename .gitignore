@@ -1,0 +1,18 @@
+# Virtual environment
+.venv/
+
+# Python cache and bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Runtime files and outputs
+logs/
+outputs/
+data/*.csv
+
+# Ignore nested cloned repository leftovers
+Model-Pipeline/
+
+# macOS
+.DS_Store

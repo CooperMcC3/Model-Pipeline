@@ -1,0 +1,18 @@
+database:
+  host: localhost
+  port: 3306
+  user: root
+  password: ""
+  database: sales_db
+  table: sales_data
+
+paths:
+  data_dir: data
+  output_dir: outputs
+  log_dir: logs
+  csv_filename: sales_cleaned.csv
+
+model:
+  test_size: 0.2
+  random_state: 42
+  n_estimators: 100
